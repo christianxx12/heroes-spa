@@ -1,3 +1,8 @@
+/*
+Esta función toma un nombre de editorial como argumento,
+verifica si es válido y luego devuelve una lista de héroes que pertenecen a esa editorial.
+*/
+
 import { heroes } from "../data/heroes";
 
 export const getHeroesByPublisher = (publisher) => {
